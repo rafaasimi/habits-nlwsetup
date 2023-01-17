@@ -2,17 +2,66 @@
 <html lang="pt-BR">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Habits - Registre seus hábitos diariamente</title>
 
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/png">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <img src="./assets/logo-habits.svg" alt="Habits">
+    <header>
+        <img src="./assets/logo-habits.svg" alt="Habits">
+
+        <button>
+            <img src="./assets/plus.svg" alt="">
+            Registrar meu dia
+        </button>
+    </header>
+
+    <form id="form-habits">
+        <div class="habits">
+            <div class="habit">🏃🏽‍♂️</div>
+            <div class="habit">💧</div>
+            <div class="habit">💪🏻</div>
+            <div class="habit">💤</div>
+            <div class="habit">🦮</div>
+            <div class="habit">🥗</div>
+        </div>
+
+        <div class="days">
+            <div class="day">
+                <div>15/01</div>
+                <input type="checkbox" name="run">
+                <input type="checkbox" name="water">
+                <input type="checkbox" name="food">
+                <input type="checkbox" name="">
+                <input type="checkbox" name="">
+                <input type="checkbox" name="">
+            </div>
+
+            <div class="day">
+                <div>18/01</div>
+                <input type="checkbox" name="run">
+                <input type="checkbox" name="water">
+                <input type="checkbox" name="food">
+                <input type="checkbox" name="">
+                <input type="checkbox" name="">
+                <input type="checkbox" name="">
+            </div>
+        </div>
+
+    </form>
+
+
+
 </body>
 
 </html>
