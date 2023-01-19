@@ -25,6 +25,12 @@ button {
   display: flex;
   align-items: center;
   gap: 12px;
+  transition: all .2s;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(.8)
 }
 
 header {
